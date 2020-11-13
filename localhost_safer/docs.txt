@@ -1,0 +1,49 @@
+working between client and server.
+
+1. on the fly, one time socket use for simple operation.
+common command:
+	- PING
+	- BOT_INFO: create, update ...
+
+explanation:
+	- client: l_send() - msg_cmd
+	- server: l_recv(): and do the work accordinglly.
+	- client: closel_socket()		
+	
+
+2. no (large, continous data)
+for GET_TASK command
+
+explanation: 
+
+		client - l_send(): command
+		server - l_recv(): to EOF, and get the command
+		l_send() - send data back.
+		client - l_recv(): data result.
+
+3. large data and continuous operations
+3.1. large data
+
+- as 2, but see this function
+
+See the function: https://docs.microsoft.com/en-us/windows/win32/api/mswsock/nf-mswsock-transmitfile
+
+
+3.2. continous operation.
+- do not know to do yet.
+
+
+II.
+
+1. message send from client to server will have the form.
+
+[msg_cmd_code][msg_data_len][data]
+
+2. message from server to client will have the form
+
+[msg_data_len][data]
+
+
+END: in all case, only [data] is encrypted.
+
+

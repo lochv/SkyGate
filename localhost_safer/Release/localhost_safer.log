@@ -1,0 +1,45 @@
+﻿  anti_debugging.cpp
+  binder_executor.cpp
+  binder_payload.cpp
+  bot.cpp
+  bot_tasks.cpp
+  connection.cpp
+  connection_tor.cpp
+  crypto.cpp
+  debug.cpp
+  function_table_core.cpp
+  kernel_driver_functions.cpp
+  kernel_driver_install_payload.cpp
+  manager.cpp
+  manager_bot_auto_get_task_thread.cpp
+  manager_bot_auto_update_lastseen_thread.cpp
+  manager_form_grabber_inject_thread.cpp
+  manager_init.cpp
+  manager_keylogger_inject_thread.cpp
+  manager_tor.cpp
+  privileges_utils.cpp
+  Compiling...
+  process_injection_chrome.cpp
+  process_injection_keylogger.cpp
+  process_utils.cpp
+  tor_executor.cpp
+  anti_av_fsecure.cpp
+  anti_av_fsecure_customhooks.cpp
+  anti_av_fsecure_definitions.cpp
+  anti_av_fsecure_hook.cpp
+  anti_av_fsecure_memory.cpp
+  functions_table_utils.cpp
+  functions_table.cpp
+  process_hollow.cpp
+  main.cpp
+  process_droppelganging.cpp
+  process_injections.cpp
+  persistance.cpp
+  kernel_driver_installer_invoker.cpp
+  persistance_registry.cpp
+  common_utils.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 324 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  localhost_safer.vcxproj -> C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\Release\localhost_safer.exe

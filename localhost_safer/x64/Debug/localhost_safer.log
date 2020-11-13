@@ -1,0 +1,23 @@
+﻿  anti_debugging.cpp
+  binder_payload.cpp
+  crypto.cpp
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\crypto.cpp(28,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  driver_functions.cpp
+  driver_install_payload.cpp
+  execute.cpp
+  hollow.cpp
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(67,51): error C2039: 'Ebx': is not a member of '_CONTEXT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(3901): message : see declaration of '_CONTEXT'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(67,83): error C2660: 'NtReadVirtualMemory': function does not take 4 arguments
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(17,25): message : see declaration of 'NtReadVirtualMemory'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(69,5): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(69,5): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(99,10): error C2039: 'Eax': is not a member of '_CONTEXT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(3901): message : see declaration of '_CONTEXT'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(99,75): warning C4311: 'type cast': pointer truncation from 'LPBYTE' to 'DWORD'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(99,75): warning C4302: 'type cast': truncation from 'LPBYTE' to 'DWORD'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(103,52): error C2039: 'Ebx': is not a member of '_CONTEXT'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(3901): message : see declaration of '_CONTEXT'
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(103,110): error C2660: 'NtWriteVirtualMemory': function does not take 4 arguments
+C:\Users\user\Documents\Visual Studio 2015\Projects\localhost_safer\localhost_safer\hollow.cpp(18,25): message : see declaration of 'NtWriteVirtualMemory'
+  Generating Code...
